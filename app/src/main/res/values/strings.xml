@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Universities</string>
+    <string name="belarus">Университеты белоруссии</string>
+    <string name="authorization">Авторизация</string>
+    <string name="vhod">Войти</string>
+    <string name="enter">Введите логин и пароль</string>
+    <string name="login">Введите логин</string>
+    <string name="password">Введите пароль</string>
+    <string name="registr">Зарегистрироваться</string>
+    <string name="select">Выберите режим:</string>
+    <string name="ministry">Для министерства</string>
+    <string name="teacher">Для преподавателей</string>
+    <string name="student">Для студентов</string>
+    <string name="univer">Университет</string>
+    <string name="web">Ссылка</string>
+    <string name="name">ФИО</string>
+    <string name="specialty">Специальность</string>
+    <string name="hours">Кол-во часов</string>
+    <string name="birthDate">Дата рождения</string>
+    <string name="budget">Бюджет</string>
+    <string name="univers">Университеты</string>
+    <string name="teachers">Преподаватели</string>
+    <string name="students">Студенты</string>
+    <string-array name="mode">
+        <item>Министерство</item>
+        <item>Преподаватель</item>
+        <item>Студент</item>
+    </string-array>
+    <string name="adduniv">Добавить университет</string>
+    <string name="addteacher">Добавить преподавателя</string>
+    <string name="addstudent">Добавить студента</string>
+    <string name="nameuniv">Название университета</string>
+    <string name="website">Ссылка на сайт университета</string>
+    <string name="url">Url Картинки</string>
+    <string name="addData">Добавление данных</string>
+    <string name="salary">Зарплата</string>
+    <string name="fio">ФИО преподавателя</string>
+    <string name="speciality">Специальность</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_university">AddUniversity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

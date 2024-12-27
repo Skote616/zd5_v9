@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/editback"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+        <TextView
+            android:id="@+id/info1"
+            android:textColor="@color/white"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/name"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/info2"
+            android:textColor="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/univer" />
+        <TextView
+            android:id="@+id/info3"
+            android:textColor="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/specialty" />
+        <TextView
+            android:id="@+id/info4"
+            android:textColor="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/hours" />
+        <TextView
+            android:id="@+id/info5"
+            android:textColor="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/salary" />
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/edit"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="50dp"
+                    android:src="@drawable/edit"
+                    style="@style/Widget.AppCompat.ActionButton.Overflow"
+                    />
+
+                <ImageButton
+                    android:id="@+id/delete"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/delete"
+                    style="@style/Widget.AppCompat.ActionButton.Overflow" />
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
